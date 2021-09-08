@@ -4,5 +4,5 @@
   "id": null,
   "file": "club/sk1er/mods/core/ModCore.class",
   "replacement_download": null,
-  "explanation": "As ModCore is installed in the tweaker stage by mods that use it, ModCore isn't needed in your mod folder."
+  "explanation": "As ModCore is installed in the tweaker stage by mods that use it, ModCore isn't needed in your mod folder (also Essential has released which makes this basically useless)."
 }

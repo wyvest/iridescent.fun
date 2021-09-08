@@ -1,5 +1,6 @@
 {
-	"latest": "0.5.0-THISVALUEISNOTUPDATEDBECAUSETHEUPDATECHECKERMETHODHASCHANGED",
+  "_comment": "The latest variable is not updated, as the update checking method has changed and it only exists for compatability reasons. However, the triggers here are still used.",
+	"latest": "0.9.0",
 	"triggers": [
           "^ +1st Killer - ?\\[?\\w*\\+*\\]? \\w+ - \\d+(?: Kills?)?$",
           "^ *1st (?:Place ?)?(?:-|:)? ?\\[?\\w*\\+*\\]? \\w+(?: : \\d+| - \\d+(?: Points?)?| - \\d+(?: x .)?| \\(\\w+ .{1,6}\\) - \\d+ Kills?|: \\d+:\\d+| - \\d+ (?:Zombie )?(?:Kills?|Blocks? Destroyed)| - \\[LINK\\])?$",

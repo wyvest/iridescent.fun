@@ -1,0 +1,60 @@
+html {
+    background: linear-gradient(to bottom right, purple, rgb(0, 153, 255)) no-repeat center
+    center fixed;
+}
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  h1 {
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+  p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+  }
+  .button {
+    pointer-events: auto;
+    cursor: pointer;
+    background: #e7e7e7;
+    border: none;
+    padding: 1.5rem 3rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    top: 6vh;
+}
+.button::before,
+.button::after {
+  width: 100%;
+  height: 100%;
+}
+.button--pandora {
+  background: #000;
+  font-weight: 700;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.button--pandora span {
+  display: block;
+  background: #a7a7a7;
+  padding: 1rem 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transform: translate3d(-4px, -4px, 0);
+  transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.button--pandora:hover span {
+  transform: translate3d(-8px, -8px, 0);
+}
